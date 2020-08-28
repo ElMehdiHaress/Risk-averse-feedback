@@ -1,1 +1,4 @@
 # Risk-averse-feedback
+We study learning algorithms that seek to minimize the conditional value-at-risk (CVaR), when all the learner knows is that the losses incurred may be heavy-tailed. We begin by studying a general-purpose estimator of CVaR for potentially heavy-tailed random variables, which is easy to implement in practice, and requires nothing more than finite variance and a distribution function that does not change too fast or slow around just the quantile of interest. With this estimator in hand, we then derive a new learning algorithm which robustly chooses among candidates produced by stochastic gradient-driven sub-processes. For this procedure we provide high-probability excess CVaR bounds, and to complement the theory we conduct empirical tests of the underlying CVaR estimator and the learning algorithm derived from it.
+# Authors
+Matthew J.Holland and El Mehdi Haress
